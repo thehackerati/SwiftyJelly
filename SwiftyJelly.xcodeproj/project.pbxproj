@@ -13,7 +13,6 @@
 		3EE606951AB7A32F00EA7EEA /* SwiftyJellyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */; };
 		3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */; };
 		3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */; };
-		3EE606A51AB7C0D800EA7EEA /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A41AB7C0D800EA7EEA /* Defines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJellyTests.swift; sourceTree = "<group>"; };
 		3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
-		3EE606A41AB7C0D800EA7EEA /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 				3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */,
 				3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */,
 				3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */,
-				3EE606A41AB7C0D800EA7EEA /* Defines.swift */,
 				3EE606851AB7A32F00EA7EEA /* Images.xcassets */,
 				3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */,
 				3EE606781AB7A32F00EA7EEA /* Supporting Files */,
@@ -216,7 +213,6 @@
 			files = (
 				3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */,
 				3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */,
-				3EE606A51AB7C0D800EA7EEA /* Defines.swift in Sources */,
 				3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

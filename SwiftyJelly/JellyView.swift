@@ -8,6 +8,8 @@
 
 import UIKit
 
+let π = M_PI
+
 class JellyView: UIView {
     
     let shapeLayer = CAShapeLayer()
@@ -18,14 +20,13 @@ class JellyView: UIView {
     
     var path = UIBezierPath()
     
-    var displayLink : CADisplayLink!
+    lazy var displayLink : CADisplayLink = CADisplayLink(target: self, selector: "reDraw:")
     
     var time : CFTimeInterval = 5
 
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        displayLink  = CADisplayLink(target: self, selector: "reDraw:")
         displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes)
         
         let tapGesture = UITapGestureRecognizer(target: self, action: "buttonTapped")
