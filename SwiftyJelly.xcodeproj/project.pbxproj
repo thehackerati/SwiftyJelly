@@ -27,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		3EA58FD51B087AFD00A4DE88 /* JellyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JellyView.swift; path = Pod/JellyView.swift; sourceTree = "<group>"; };
+		3EA58FD81B087CA800A4DE88 /* SwiftyJelly.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftyJelly.podspec; sourceTree = "<group>"; };
 		3EE606751AB7A32F00EA7EEA /* SwiftyJelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyJelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE606791AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		3EE6066C1AB7A32F00EA7EEA = {
 			isa = PBXGroup;
 			children = (
+				3EA58FD81B087CA800A4DE88 /* SwiftyJelly.podspec */,
 				3EA58FD71B087B3000A4DE88 /* Pod */,
 				3EE606771AB7A32F00EA7EEA /* SwiftyJelly */,
 				3EE606911AB7A32F00EA7EEA /* SwiftyJellyTests */,
