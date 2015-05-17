@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA58FD61B087AFD00A4DE88 /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA58FD51B087AFD00A4DE88 /* JellyView.swift */; };
 		3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */; };
 		3EE606861AB7A32F00EA7EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606851AB7A32F00EA7EEA /* Images.xcassets */; };
 		3EE606891AB7A32F00EA7EEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */; };
 		3EE606951AB7A32F00EA7EEA /* SwiftyJellyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */; };
 		3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */; };
-		3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EA58FD51B087AFD00A4DE88 /* JellyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JellyView.swift; path = Pod/JellyView.swift; sourceTree = "<group>"; };
 		3EE606751AB7A32F00EA7EEA /* SwiftyJelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyJelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE606791AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		3EE606931AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJellyTests.swift; sourceTree = "<group>"; };
 		3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EA58FD71B087B3000A4DE88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EA58FD51B087AFD00A4DE88 /* JellyView.swift */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3EE6066C1AB7A32F00EA7EEA = {
 			isa = PBXGroup;
 			children = (
+				3EA58FD71B087B3000A4DE88 /* Pod */,
 				3EE606771AB7A32F00EA7EEA /* SwiftyJelly */,
 				3EE606911AB7A32F00EA7EEA /* SwiftyJellyTests */,
 				3EE606761AB7A32F00EA7EEA /* Products */,
@@ -79,7 +88,6 @@
 			children = (
 				3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */,
 				3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */,
-				3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */,
 				3EE606851AB7A32F00EA7EEA /* Images.xcassets */,
 				3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */,
 				3EE606781AB7A32F00EA7EEA /* Supporting Files */,
@@ -213,7 +221,7 @@
 			files = (
 				3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */,
 				3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */,
-				3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */,
+				3EA58FD61B087AFD00A4DE88 /* JellyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +342,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -345,6 +354,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Release;
 		};
