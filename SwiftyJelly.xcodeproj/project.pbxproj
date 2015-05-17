@@ -34,7 +34,7 @@
 		3EE6068E1AB7A32F00EA7EEA /* SwiftyJellyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJellyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE606931AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJellyTests.swift; sourceTree = "<group>"; };
-		3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
